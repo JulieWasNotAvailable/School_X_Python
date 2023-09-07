@@ -2,7 +2,6 @@
 #вывод - корень этого числа, если он целый
 #если такого нет "трудно, не могу"
 
-'''
 a = 0
 def guess(num: int):
     for i in range (1,num+1):
@@ -13,9 +12,3 @@ def guess(num: int):
             return "Не могу"
 
 print (guess(int(input("Квадрат какого числа хотите взять: "))))
-'''
-
-#для задачки с литкода
-num = input ("Введите число: ")
-num = num.split
-print (num)

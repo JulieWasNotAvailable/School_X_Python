@@ -1,17 +1,16 @@
-"""
-def my_personal_sum(
 
+def my_personal_sum(
         x: int | float,
         y: int | float,
-) -> int | float
+) -> int | float:
     answer = x + y
     return answer
-"""
+
 
 def my_personal_sum(
         num_list: list
 
-) -> int | float
+) -> int | float:
     for num in num_list:
         answer += num
     return answer

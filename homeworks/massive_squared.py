@@ -6,6 +6,7 @@ def func(n):
         list_n.append(i)
     print (list_n)
 
+
 a = int(input("Введите число: "))
 
 func(a)

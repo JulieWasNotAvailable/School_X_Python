@@ -3,7 +3,7 @@ def nod(a: int, b: int):
     while True:
         c = a - b
         if c < b:
-            print(c)
+            print(b)
             break
         a = b
         b = c
@@ -11,4 +11,4 @@ def nod(a: int, b: int):
 if __name__ == '__main__':
     x = int(input('Введите первое число: '))
     y = int(input('Введите второе число: '))
-    nod(x,y)
+    nod(x,y)4

@@ -1,0 +1,28 @@
+raw_text = "Тут сыро. И пахнет плесенью."
+
+doc = nlp(raw_text)
+sentences = [sent.text.strip() for sent in doc.sents]
+будет выводить предложения
+
+# sentence = "Я люблю пончики, но я ненавижу броколли"
+
+# doc = nlp(sentence)
+# for token in doc:
+#     ancestors = [t.text for t in token.ancestors]
+#     children = [t.text for t in token.children]
+#     print(token.text, "\t", token.i, "\t", 
+#           token.pos_, "\t", token.dep_, "\t", 
+#           ancestors, "\t", children)
+    
+# displacy.render(doc, style = "dep")
+тоже будет чота делать
+
+ssp = "Птица махала крыльями, я смотрела на неё"
+simple =  "Мне нравится клубника, Петя ест кукурузу"
+
+# list = [ssp, simple]
+
+# for token in list:
+#     new_t = nlp(token)
+#     print (token)
+#     displacy.render(new_t, style="dep")
